@@ -1,0 +1,53 @@
+PRIMA CLASSE
+
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp11
+{
+    internal class Documenti
+    {
+        public string Tipodocumento {  get; set; }
+
+        public Documenti(string libro)
+        {
+            Tipodocumento = libro;
+        }
+        public Documenti(string dvd, string libro)
+        {
+            Tipodocumento = dvd;
+        }
+        public string Nomed { get; set; }
+        public int Pubblicazione { get; set; }
+        public string Tipo {  get; set; }
+        public string Stato {  get; set; }
+        public string NomeAutore {  get; set; }
+        public string CognomeAutore { get; set; }
+        public int Npagine {  get; set; }
+
+        
+    }
+}
+
+
+SECONDA CLASSE
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp11
+{
+    internal class Person
+    {
+        public string Nome {  get; set; }
+        public string Cognome { get; set; }
+        public string Email {  get; set; }
+        public int Numero {  get; set; }
+
+    }
+}
